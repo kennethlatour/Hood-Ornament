@@ -1,6 +1,41 @@
-body {
+.brand {
     text-align: center;
     font-family: optima;
     color: silver;
     font-size: 200%;
+    font-style: italic;
 }
+.hood {
+    display: block;
+    margin-left:auto; 
+    margin-right: auto; 
+    margin-top: 200px;
+    width: auto;
+   height: 300px;
+}
+.emblem {
+    display: block;
+    margin-left:auto; 
+    margin-right: auto; 
+    margin-top: 200px;
+    width: auto;
+    height: 600px;
+}
+.gif {
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+.hidden {
+    margin-left: 20px;
+    color: rgb(138, 138, 138);
+    font-family: Optima;
+    font-style: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .hidden:hover {
+    opacity: 12;
+  }
+  
