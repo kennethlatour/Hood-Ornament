@@ -2,9 +2,6 @@
 .inline-block {
     display: inline-block;
  }
- .animal {
-   margin-left: 900px;
- }
 .brand {
     text-align: center;
     font-family: optima;
@@ -82,8 +79,12 @@
     opacity: 1;
     backdrop-filter: blur(15px);
  }
- .est {
+ #web {
     font-family: optima;
     color: rgb(170, 170, 170);
-    margin-left: 500px;
+    margin-left: 100px;
+        width: 74px;
+        border: 2px solid rgb(170, 170, 170) ;
+        padding: 12px;
+  
  }
